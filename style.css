@@ -2081,6 +2081,13 @@ body {
 .blog.grid .single-news {
   margin-top: 30px;
 }
+
+.blog .accent {
+  margin-top: 1rem;
+  display: block;
+  background-color: var(--yellow);
+  text-align: center;
+}
 /* Blog Sidebar */
 .main-sidebar {
   background: #fff;
