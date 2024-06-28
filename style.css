@@ -74,6 +74,17 @@ body {
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+.justify {
+  text-align: justify;
+}
+
+.background-blue{
+  background-color: #1a76d1;
+}
+
+.push-down {
+  padding-top: 6rem !important;
+}
 .pro-features.active {
   right: 0;
 }
@@ -86,8 +97,6 @@ body {
   font-weight: 600;
   color: #1a76d1;
   font-size: 15px;
-}
-.pro-features .button {
 }
 .pro-features .button .btn {
   width: 100%;
@@ -246,6 +255,7 @@ body {
   background-color: #fff;
   position: relative;
 }
+
 .header .navbar-collapse {
   padding: 0;
 }
