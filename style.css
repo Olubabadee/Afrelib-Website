@@ -54,6 +54,19 @@ body {
   font-size: 14px;
   color: #888;
 }
+
+.whatsapp {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  background-image: url(./img/whatsapp.png);
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 1100;
+}
 .pro-features {
   position: fixed;
   right: -300px;
@@ -78,7 +91,7 @@ body {
   text-align: justify;
 }
 
-.background-blue{
+.background-blue {
   background-color: #1a76d1;
 }
 
