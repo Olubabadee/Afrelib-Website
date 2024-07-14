@@ -1039,6 +1039,15 @@ body {
   background-repeat: no-repeat;
   position: relative;
 }
+.p-top-big .choose-right {
+  height: 120%;
+  width: 100%;
+  background-image: url("img/boot-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
 .why-choose .choose-right .video {
   color: #fff;
   height: 70px;
@@ -4202,3 +4211,16 @@ body {
 /*=========================
 	End Footer CSS
 ===========================*/
+
+/* My Custom CSS */
+.p-top-big {
+  padding-top: 3rem !important;
+}
+
+.p-top-big .choose-left p {
+  margin-bottom: 10px;
+}
+
+.color-w {
+  color: white !important;
+}

@@ -1136,3 +1136,12 @@ object {
     transform-origin: bottom left;
   }
 }
+
+.breadcrumbs-bg {
+  background-image: url("../img/fun-bg.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 120px 0px;
+}
