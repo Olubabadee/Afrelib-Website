@@ -4224,3 +4224,28 @@ body {
 .color-w {
   color: white !important;
 }
+
+.p-bottom {
+  padding: 50px !important;
+}
+
+.minus-pad {
+  padding-top: -100px !important;
+  padding-bottom: -100px !important;
+}
+
+.why-choose .change-bg {
+  background-image: url("img/video-bg2.jpg") !important;
+}
+
+.why-choose .change-bg2 {
+  background-image: url("img/video-bg3.png") !important;
+}
+
+.why-choose .change-bg3 {
+  background-image: url("img/atn.png") !important;
+}
+
+.p-top-big .choose-right {
+  background-image: url("img/atn-2.jpg") !important;
+}
