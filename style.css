@@ -4249,3 +4249,17 @@ body {
 .p-top-big .choose-right {
   background-image: url("img/atn-2.jpg") !important;
 }
+
+.m-top-big {
+  margin-top: 60px;
+}
+
+.grey-bg {
+  background: #f8f9fa;
+}
+
+.cust-height {
+  height: 400px;
+  display: block;
+  overflow: hidden;
+}

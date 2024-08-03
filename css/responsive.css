@@ -660,6 +660,11 @@ Version:	1.1
     height: 450px;
     margin-top: 30px;
   }
+
+  .why-choose .cust-height {
+    padding-bottom: 20px;
+  }
+
   .call-action .content {
     padding: 0;
     padding: 70px 0;
