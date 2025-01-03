@@ -4261,6 +4261,10 @@ body {
   background-image: url("img/video-bg6.jpg") !important;
 }
 
+.why-choose .change-bg7 {
+  background-image: url(img/ai-challenge.jpeg) !important;
+}
+
 .p-top-big .choose-right {
   background-image: url("img/atn-2.jpg") !important;
 }
