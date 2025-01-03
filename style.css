@@ -4268,6 +4268,9 @@ body {
 .p-top-big .choose-right {
   background-image: url("img/atn-2.jpg") !important;
 }
+.p-top-big .choose-right-1 {
+  background-image: url("img/boot-1.jpg") !important;
+}
 
 .m-top-big {
   margin-top: 60px;
