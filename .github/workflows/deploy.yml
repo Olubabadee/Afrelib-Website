@@ -1,0 +1,22 @@
+name: Deploy to Namecheap via FTP
+
+on:
+  push:
+    branches:
+      - main  # Change if your live branch is different
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@v3
+
+      - name: Upload to Namecheap
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_PATH }}
+          dangerous-clean-slate: false   # keeps existing files that are not in repo
