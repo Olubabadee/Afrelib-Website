@@ -4295,6 +4295,11 @@ body {
   gap: 20px; /* spacing between buttons */
 }
 
+.button-grid .btn:visited,
+.button-grid .btn:link {
+  color: white;
+}
+
 .button-grid .btn {
   display: block;
   width: 100%;
