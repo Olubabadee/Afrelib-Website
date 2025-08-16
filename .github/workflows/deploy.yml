@@ -1,22 +1,23 @@
-name: Deploy to Namecheap via FTP
+name: Deploy to Namecheap via SFTP
 
 on:
   push:
     branches:
-      - main  # Change if your live branch is different
+      - main   # change to 'master' if that's your default branch
 
 jobs:
-  ftp-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout latest code
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Upload to Namecheap
+      - name: Deploy via SFTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_PATH }}
-          dangerous-clean-slate: false   # keeps existing files that are not in repo
+          server: ${{ secrets.SFTP_SERVER }}
+          username: ${{ secrets.SFTP_USERNAME }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          port: ${{ secrets.SFTP_PORT }}
+          server-dir: /home/afreahwg/public_html
+          protocol: sftp
